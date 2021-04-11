@@ -12,6 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 4. Add JsonLib project in JsonQRuntime Project 
 5. Add json  jar as external jar(avaialbe in lib_jars folder of the Json_lib Project)
     - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
+    - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0
 
 ### Prerequisites
 
