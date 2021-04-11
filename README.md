@@ -57,7 +57,7 @@ These instructions will get you a copy of the project up and running on your loc
     
   4.  After writing the query save the file, and you see that ```JSONQueryMain.java``` file gets created under ``/src-gen`` folder. Right click on this file and       run as main program. A java swing executable console displaying results open for each query.
       ``Note: You may need to drag the console as they will be hidden behind each other.``
-  5. This is the sample data of json stored : 
+  5. This is the sample json data stored : 
   ```
       {
         "id": 1,
@@ -78,7 +78,7 @@ These instructions will get you a copy of the project up and running on your loc
         "cityName": "Qinglung",
         "isVaccinated": "Yes",
         "income": "77048"
-    }
+    } ...
   ```
     
 
