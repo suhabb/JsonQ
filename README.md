@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
   - This project is Runtime Isntance of the JsonDSL project.
   - https://github.com/suhabb/JsonDSL.git
      
-### Running the Project
+## Running the Project
 
 1. In runtime eclipse, create a  new file with extension .jq under /src package.
     ```
