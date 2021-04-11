@@ -45,7 +45,9 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     Example: JsonQ.jq
     ```
-3. Write a query like below :
+3. Open ```JsonQ.jq``` file and write a query like below :
+    - Use ctnl + space for suggestion.
+    - Use quick fix for errors.
     ```
       - GET DATA WHERE isVaccinated "Yes"
       - GET DATA WHERE firstName "Ami" AND gender "Female"
