@@ -39,12 +39,45 @@ These instructions will get you a copy of the project up and running on your loc
   - This project is Runtime Isntance of the JsonDSL project.
   - https://github.com/suhabb/JsonDSL.git
      
-### Installing
+### Running the Project
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+1. In runtime eclipse, create a  new file with extension .jq under /src package.
+    ``
+    Example: JsonQ.jq
+    `` 
+3. Write a query like below :
+    ``
+      - GET DATA WHERE isVaccinated "Yes"
+      - GET DATA WHERE firstName "Ami" AND gender "Female"
+      - GET COUNT WHERE isVaccinated "Yes" AND gender "Male"
+      - GET AVG WHERE isVaccinated "No" AND gender "Female"
+    ``
+    
+4. This is the sample data of json stored : 
+    ```
+    {
+      "id": 1,
+      "firstName": "Ami",
+      "lastName": "Canlin",
+      "gender": "Female",
+      "countryCode": "BR",
+      "cityName": "Cachoeiras de Macacu",
+      "isVaccinated": "Yes",
+      "income": "77142"
+	},
+	{
+      "id": 2,
+      "firstName": "Welby",
+      "lastName": "Cogle",
+      "gender": "Male",
+      "countryCode": "CN",
+      "cityName": "Qinglung",
+      "isVaccinated": "Yes",
+      "income": "77048"
+	},
+  ....
+    
+    ```
 ```
 Give the example
 ```
@@ -68,7 +101,6 @@ Explain how to run the automated tests for this system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
  - Poonam Sarode
  - Suhail Mir
 
