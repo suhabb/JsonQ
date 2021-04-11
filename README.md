@@ -55,31 +55,31 @@ These instructions will get you a copy of the project up and running on your loc
       - GET AVG "income" WHERE isVaccinated "No" AND gender "Female"
     ```
     
-4. This is the sample data of json stored : 
-  ```
-    {
-      "id": 1,
-      "firstName": "Ami",
-      "lastName": "Canlin",
-      "gender": "Female",
-      "countryCode": "BR",
-      "cityName": "Cachoeiras de Macacu",
-      "isVaccinated": "Yes",
-      "income": "77142"
-},
-{
-      "id": 2,
-      "firstName": "Welby",
-      "lastName": "Cogle",
-      "gender": "Male",
-      "countryCode": "CN",
-      "cityName": "Qinglung",
-      "isVaccinated": "Yes",
-      "income": "77048"
-  }
-  ```
-  5.  After writing the query save the file, and you see that ```JSONQueryMain.java``` file gets created under ``/src-gen`` folder. Right click on this file and       run as main program. A java swing executable console displaying results open for each query.
+  4.  After writing the query save the file, and you see that ```JSONQueryMain.java``` file gets created under ``/src-gen`` folder. Right click on this file and       run as main program. A java swing executable console displaying results open for each query.
       ```Note: You may need to drag the console as they will be hidden behind each other```
+  5.  4. This is the sample data of json stored : 
+    ```
+      {
+        "id": 1,
+        "firstName": "Ami",
+        "lastName": "Canlin",
+        "gender": "Female",
+        "countryCode": "BR",
+        "cityName": "Cachoeiras de Macacu",
+        "isVaccinated": "Yes",
+        "income": "77142"
+    },
+    {
+        "id": 2,
+        "firstName": "Welby",
+        "lastName": "Cogle",
+        "gender": "Male",
+        "countryCode": "CN",
+        "cityName": "Qinglung",
+        "isVaccinated": "Yes",
+        "income": "77048"
+    }
+  ```
     
 
 ## Running the tests
