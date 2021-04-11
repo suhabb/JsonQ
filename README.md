@@ -1,22 +1,17 @@
 # JsonQ
 
-## JsonLib
-  - JsonLib is the helper project to run RuntimeJsonQEclipse( ``JsonQRuntime``).
-  - This project takes json query patameters and return the search results in Java Swing Executables files
-  - Import jar file from "lib_jars" folder to eclipse ``Import External Jars section``.
-  ### Jars Required
-    - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
-    - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0)
 
-## JsonQRuntime
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 1. Install Eclipse 
 2. Install JDK1.8
-3. Import project JsonLib in JsonQRuntime Project 
-4. Import jars 
+3. Import the project by cloning the git uri
+      - https://github.com/suhabb/JsonQ.git
+4. Add JsonLib project in JsonQRuntime Project 
+5. Add json  jar as external jar(avaialbe in lib_jars folder of the Json_lib Project)
+    - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
 
 ### Prerequisites
 
@@ -30,6 +25,33 @@ What things you need to install the software and how to install them
   - xTend
   - xSemantics    
 ```
+
+
+## JsonLib
+  - JsonLib is the helper project to run RuntimeJsonQEclipse( ``JsonQRuntime``).
+  - This project takes json query patameters and return the search results in Java Swing Executables files
+  - Import jar file from "lib_jars" folder to eclipse ``Import External Jars section``.
+  - There is a database file called ``covid_vaccination.json`` under src/resource package.This file is used against returning the search result of the query.
+ 
+
+ #### Jars Required
+    - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
+    - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0
+ 
+ 
+## JsonQRuntime
+  - Create a resource package under src folder and copy this file ``covid_vaccination.json`` to resource package
+  ``
+  - src/resource
+      - covid_vaccination.json
+   ``  
+   - The ``covid_vaccination.json`` file is available in JsonLib project.
+      - https://github.com/suhabb/JsonQ/tree/main/JsonLib/src/resource
+     
+
+
+
+
 
 ### Installing
 
