@@ -42,9 +42,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Running the Project
 
 1. In runtime eclipse, create a  new file with extension .jq under /src package.
-    ``
+    ```
     Example: JsonQ.jq
-    `` 
+    ```
 3. Write a query like below :
     ```
       - GET DATA WHERE isVaccinated "Yes"
@@ -54,7 +54,7 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     
 4. This is the sample data of json stored : 
-    ```
+  ```
     {
       "id": 1,
       "firstName": "Ami",
