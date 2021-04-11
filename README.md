@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
       - GET DATA WHERE isVaccinated "Yes"
       - GET DATA WHERE firstName "Ami" AND gender "Female"
       - GET COUNT WHERE isVaccinated "Yes" AND gender "Male"
-      - GET AVG WHERE isVaccinated "No" AND gender "Female"
+      - GET AVG "income" WHERE isVaccinated "No" AND gender "Female"
     ```
     
 4. This is the sample data of json stored : 
