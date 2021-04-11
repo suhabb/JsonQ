@@ -32,10 +32,8 @@ These instructions will get you a copy of the project up and running on your loc
   6. Run the JSONQueryMain.java file from the src package
   
 ## JsonLib
-  - JsonLib is the library project to run RuntimeJsonQEclipse( ``JsonQRuntime``).
-  - This project takes json query parameters and returns the search results in Java Swing Executables files
-  - Import jar file's from "lib_jars" folder to eclipse ``Import External Jars section``.
-  - There is a database file called ``covid_vaccination.json`` under src/resource package.This file is used against returning the search result of the query.
+  - JsonLib is the library project to run RuntimeJsonQEclipse( ``JsonQRuntime``).This project takes json query parameters and returns the search results in Java Swing Executables files
+  - There is a file called ``covid_vaccination.json`` under src/resource package.This file is used as database source.
  
 ## JsonQRuntime
   - This project is Runtime Isntance of the JsonDSL project.
