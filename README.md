@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
      
 ## Running the Project
 
-1. In runtime eclipse, create a  new file with extension .jq under /src package.
+1. In runtime eclipse, create a new file with extension ``<filename>.jq`` under ``/src`` package.
     ```
     Example: JsonQ.jq
     ```
