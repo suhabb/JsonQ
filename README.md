@@ -19,10 +19,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. In eclipse,import the project by cloning the git uri
       - https://github.com/suhabb/JsonQ.git
-2. Add json  jar as external jar(avaialbe in lib_jars folder of the Json_lib Project)
+2. Add below jars as external jar file(availabe in lib_jars folder of the JsonLib Project) in JsonLib Project.
     - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
     - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0
-3. Go to eclipse JsonQRuntime Project -> Properties->Project and add `JsonLib` project.This should remove all the compilation errors in the JsonQRunTime Project.
+3. Go to eclipse JsonQRuntime Project -> Properties->Project and add `JsonLib` as its a dependent project.This should remove all the compilation errors in the JsonQRunTime Project.
+4.  In JasonQRuntime project, create a resource package under src folder and copy this file ``covid_vaccination.json`` available in JsonLib (src/resource) folder. 
+
+ ``  
+   - The ``covid_vaccination.json`` file is available in JsonLib project.
+      - https://github.com/suhabb/JsonQ/tree/main/JsonLib/src/resource
+  ``
+  - src/resource
+      - covid_vaccination.json
+  
 
 
 
@@ -33,20 +42,9 @@ These instructions will get you a copy of the project up and running on your loc
   - Import jar file's from "lib_jars" folder to eclipse ``Import External Jars section``.
   - There is a database file called ``covid_vaccination.json`` under src/resource package.This file is used against returning the search result of the query.
  
-
- #### Jars Required
-    - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
-    - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0
- 
  
 ## JsonQRuntime
-  - Create a resource package under src folder and copy this file ``covid_vaccination.json`` to resource package
-  ``
-  - src/resource
-      - covid_vaccination.json
-   ``  
-   - The ``covid_vaccination.json`` file is available in JsonLib project.
-      - https://github.com/suhabb/JsonQ/tree/main/JsonLib/src/resource
+  - 
      
 
 
@@ -75,9 +73,6 @@ End with an example of getting some data out of the system or using it for a lit
 
 Explain how to run the automated tests for this system
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
