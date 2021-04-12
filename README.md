@@ -90,7 +90,7 @@ Explain how to run the automated tests for this system
 ## Diagnostics
 
 1. What to do when you get FileNotFoundException while Running the file ``JSONQueryMain.java`` (Runs As Main application)?
-    - Check the file `covid_vaccination.json` is available in `src/resource` pacakage of Runtime eclipse .If not copy the same file `covid_vaccination.json` from JsonLib `src/resource`(https://github.com/suhabb/JsonQ/blob/main/JsonLib/src/resource/covid_vaccination.json) and add it in `src/resource` package of Runtime eclipse.
+    - Check the file `covid_vaccination.json` is available in `src/resource` pacakage of Runtime eclipse .If not copy the same file `covid_vaccination.json` from JsonLib `src/resource`(https://github.com/suhabb/JsonQ/blob/main/JsonLib/src/resource/covid_vaccination.json)  and add it in `src/resource` package of Runtime eclipse.
 
 2. When you get compilation errors in JsonLib Project?
       - Add `jar files` from the ``lib_jars`` folder to the classpath(add as external jar files) of the project.
