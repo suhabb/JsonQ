@@ -49,10 +49,10 @@ These instructions will get you a copy of the project up and running on your loc
     - Use ``ctrl + space`` for suggestion.
     - Use `quick fix` for errors.
     ```
-      - GET DATA WHERE isVaccinated "Yes"
-      - GET DATA WHERE firstName "Ami" AND gender "Female"
-      - GET COUNT WHERE isVaccinated "Yes" AND gender "Male"
-      - GET AVG "income" WHERE isVaccinated "No" AND gender "Female"
+      - GET DATA WHERE isVaccinated "Yes" END
+      - GET DATA WHERE firstName "Ami" AND gender "Female" END
+      - GET COUNT WHERE isVaccinated "Yes" AND gender "Male" END
+      - GET AVG "income" WHERE isVaccinated "No" AND gender "Female" END
     ```
     
   4.  After writing the query save the file, and you see that ```JSONQueryMain.java``` file gets created under ``/src-gen`` folder. Right click on this file and       run as main program. A java swing executable console displaying results open for each query.
