@@ -14,7 +14,8 @@ What things you need to install the software and how to install them
 ```
 ## Getting Started JsonQ DSL
 
-1. Open eclipse ,import project by using below git uri.
+1. Open eclipse and ensure Text file encoding is set to UTF-8 from Windows->Preferences->General->Workspace.
+2. Import project by using below git uri.
       https://github.com/suhabb/JsonDSL.git
 2. Go to project ``uk.ac.kcl.course.JsonDSL`` and Run ->Eclipse Runtime instance.
 3. This should open new runtime instance of eclipse.
@@ -23,7 +24,8 @@ What things you need to install the software and how to install them
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-1. In the runtime eclipse, import the project by cloning the git uri
+1. In the runtime eclipse, ensure Text file encoding is set to UTF-8 from Windows->Preferences->General->Workspace.
+2. Import the project by cloning the git uri
       - https://github.com/suhabb/JsonQ.git
 2. Add below jars as jar file(availabe in lib_jars folder of the JsonLib Project) in JsonLib Project.
     - json-20201115.jar (https://mvnrepository.com/artifact/org.json/json/20201115)
