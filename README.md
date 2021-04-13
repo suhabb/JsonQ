@@ -36,7 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
   - There is a file called ``covid_vaccination.json`` under src/resource package.This file is used as database source.
  
 ## JsonQRuntime
-  - This project is Runtime Isntance of the JsonDSL project.
+  - This project is Runtime Instance of the JsonDSL project.
   - https://github.com/suhabb/JsonDSL.git
      
 ## Running the Project
