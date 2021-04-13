@@ -94,7 +94,7 @@ public class JSONQueryProcess {
 				} else if (connector.equalsIgnoreCase(ConnectorEnum.OR.name())) {
 					String dbFirstQueryValue = dbJSONObj.getString(firstQueryKey);
 					String secondQueryKey = jsonQuery.getSecondQueryKey();
-					String secondQueryValue = jsonQuery.getFirstQueryValue();
+					String secondQueryValue = jsonQuery.getSecondQueryValue();
 					String dbSecondQueryValue = dbJSONObj.getString(secondQueryKey);
 					if ((Objects.nonNull(dbFirstQueryValue) && dbFirstQueryValue.equalsIgnoreCase(firstQueryValue))
 							|| ((Objects.nonNull(dbSecondQueryValue)
