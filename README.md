@@ -95,7 +95,7 @@ Note: Ensure src and src-gen folders are in build path.
     - Check the file `covid_vaccination.json` is available in `src/resource` package of Runtime eclipse .If not copy the same file `covid_vaccination.json` from JsonLib `src/resource`(https://github.com/suhabb/JsonQ/blob/main/JsonLib/src/resource/covid_vaccination.json)  and add it in `src/resource` package of Runtime eclipse.
 
 2. When you get compilation errors in JsonLib Project?
-      - Add `jar files` from the ``lib_jars`` folder to the classpath(add as external jar files) of the project.
+      - Add `jar files` from the ``lib_jars`` folder to the classpath(add as jar files) of the project.
 
 3. When you get compilation errors in JsonQRuntime Project?
       - Add ``JsonLib`` project as external dependency project in the classpath.
