@@ -16,7 +16,7 @@ What things you need to install the software and how to install them
 
 1. Open eclipse ,import project by using below git uri.
       https://github.com/suhabb/JsonDSL.git
-2. Go to project ``uk.ac.kcl.course.JsonDSL`` and Run ->Eclipse Runtime isntance.
+2. Go to project ``uk.ac.kcl.course.JsonDSL`` and Run ->Eclipse Runtime instance.
 3. This should open new runtime instance of eclipse.
 
 ## Getting Started Runtime
