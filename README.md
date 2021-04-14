@@ -10,7 +10,7 @@ What things you need to install the software and how to install them
 - Plugins
   - xText
   - xTend
-  - xSemantics    
+  - xSemantics - 1.19.0   
 ```
 ## Getting Started JsonQ DSL
 
