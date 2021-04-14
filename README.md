@@ -32,12 +32,13 @@ These instructions will get you a copy of the project up and running on your loc
     - junit-4.0.jar (https://mvnrepository.com/artifact/junit/junit/4.0
 3. Go to eclipse JsonQRuntime Project -> Properties -> Java Build Path -> Project -> Classpath add `JsonLib` as its a dependent project.This should remove all the compilation errors in the JsonQRunTime Project.
 4. Add ``json-20201115.jar`` as jar file in JsonQRuntime project (Project -> Properties -> Java Build Path -> Project -> Libraries -> Classpath -> add JARs...) .
-5.  In JsonQRuntime project, create a resource package under src folder and copy this file ``covid_vaccination.json`` available in JsonLib (src/resource) folder. See below for link:
+5. In JsonQRuntime project, create a resource package under src folder and copy this file ``covid_vaccination.json`` available in JsonLib (src/resource) folder if not already present. See below for link:
       - The ``covid_vaccination.json`` file is available in JsonLib project.
         - https://github.com/suhabb/JsonQ/tree/main/JsonLib/src/resource
       - src/resource
         - covid_vaccination.json
-  6. Run the JSONQueryMain.java file from the src package.
+7. You can edit/add queries in JsonQ.jq file and save it which will update file in src-gen folder.
+8. Add src-gen in build path and Run the application as Java application to see the result set.
 ```
 Note: Ensure src and src-gen folders are in build path. 
 ```
