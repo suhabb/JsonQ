@@ -68,7 +68,7 @@ Note: Ensure src and src-gen folders are in build path.
     
   4.  After writing the query save the file, and you see that ```JSONQueryMain.java``` file gets created under ``/src-gen`` folder. Right click on this file and run as Java application. A java swing executable console displaying results open for each query.
       ``Note: You may need to drag the console as they will be hidden behind each other.``
-  5. This is the sample json database stored in `src/resource` directory againist which the query's are excuted.If the query matches the data then it returns the results in Java Swing console: 
+  5. This is the sample json database stored in `src/resource` directory againist which the query's are executed.If the query matches the data then it returns the results in Java Swing console: 
   ```
       {
         "id": 1,
